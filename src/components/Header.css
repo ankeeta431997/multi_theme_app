@@ -1,0 +1,75 @@
+/* Theme-specific header backgrounds */
+.theme1 .header {
+  background: linear-gradient(90deg, #4facfe, #00f2fe);
+}
+.theme2 .header {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+}
+.theme3 .header {
+  background: linear-gradient(90deg, #e57d4cff, #2abaa0ff);
+}
+
+/* Theme-specific link colors */
+.theme1 .header-link {
+  color: #ecebe6ff;
+}
+.theme2 .header-link {
+  color: #4CAF50;
+}
+.theme3 .header-link {
+  color: #000;
+}
+
+.header-link {
+  text-decoration: none;
+  color: white; /* default fallback */
+}
+
+/* Layout styles */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+  gap: 10px;
+  color: white;
+}
+
+.header.sidebar {
+  width: 220px;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.header:not(.sidebar) {
+  width: 100%;
+  flex-direction: row;
+}
+
+.header-title {
+  margin: 0;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header-nav.sidebar {
+  flex-direction: column;
+}
+
+.header-nav:not(.sidebar) {
+  flex-direction: row;
+}

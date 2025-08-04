@@ -1,0 +1,78 @@
+.container {
+  padding: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar {
+  padding: 20px;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.titleSidebar {
+  font-size: 2rem;
+}
+
+.para {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.paraTheme3 {
+  font-size: 1.2rem;
+}
+
+.button {
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s ease, transform 0.2s ease-in-out;
+  margin-top: 10px;
+  padding: 10px 16px;
+}
+
+.buttonCards {
+  padding: 14px 20px;
+}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  margin-top: 25px;
+  transition: all 0.3s ease-in-out;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.gridCards {
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.cardCards {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fffaf0;
+  box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  object-fit: contain;
+}
+
+.productTitle {
+  margin-top: 10px;
+  font-size: 1rem;
+}

@@ -1,0 +1,32 @@
+/* Theme-specific background and text styles */
+.theme1 {
+  background-color: #f0f8ff; /* replace with theme1.background */
+  color: #000000; /* replace with theme1.text */
+  font-family: 'Arial', sans-serif; /* replace with theme1.fontFamily */
+}
+
+.theme2 {
+  background-color: #fff0f5;
+  color: #1a1a1a;
+  font-family: 'Georgia', serif;
+}
+
+.theme3 {
+  background-color: #fefae0;
+  color: #333;
+  font-family: 'Courier New', monospace;
+}
+
+/* Common container transition and layout */
+.theme-container {
+  min-height: 100vh;
+  transition: all 0.4s ease-in-out;
+}
+
+.theme-container.block {
+  display: block;
+}
+
+.theme-container.flex {
+  display: flex;
+}
